@@ -196,7 +196,7 @@ header{
 
 /* Footer */
 footer{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 60px;
     display: flex;
     justify-content: center;
@@ -216,5 +216,5 @@ footer{
 }
 
 .tyt{
-  fill: #fff;
+  /* fill: #fff; */
 }
