@@ -119,8 +119,13 @@ header{
 /* About */
 .about{
     padding: 20px;
-    background-image: url(./img/bg-img1.jpg);
+    
+}
+.wrapper{
+  background-image: url(./img/bg-img2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .text{
@@ -132,10 +137,10 @@ header{
 /* AboutW */
 .aboutW{
     padding: 20px;
-    background-image: url(./img/bg-img2.jpg);
+    /* background-image: url(./img/bg-img2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
