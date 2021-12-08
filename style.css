@@ -1,0 +1,154 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a{
+  text-decoration: none;
+}
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+/* Header */
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    color: teal;
+}
+/* Header End */
+/* About */
+.about{
+    padding: 20px;
+    background-image: url(./img/bg-img1.jpg);
+    background-size: cover;
+}
+
+.text{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* About End */
+/* AboutW */
+.aboutW{
+    padding: 20px;
+    background-image: url(./img/bg-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.hw-item{
+    padding: 3px;
+    text-align: center;
+
+}
+
+.reg {
+    display: block;
+    width: 250px;
+    height:100px;
+}
+.img1{
+    background-image: url(./img/1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.img2{
+    background-image: url(./img/2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(./img/3.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.info{
+  margin-top: 5px;
+}
+.megogo-link{
+  color: red;
+}
+.megogo-link:hover{
+  color: teal;
+}
+/* AboutW End*/
+
+
+/* Footer */
+footer{
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list-item{
+    color: wheat;
+}
