@@ -62,6 +62,7 @@ select {
   font: inherit;
 }
 
+/* Utils */
 .container {
     width: 320px;
     padding-left: 20px;
@@ -88,13 +89,6 @@ select {
       0 0 50px #BFE2FF,
   }
 }    
-/* Header */
-header{
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    
-}
 .neon {
   color: #008080;
   text-transform: uppercase;
@@ -113,7 +107,17 @@ header{
       0 0 40px #BFE2FF,
       0 0 50px #BFE2FF,
   }
-}    
+} 
+/* Utils End */
+
+/* Header */
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    
+}
+   
 /* Header End */
 
 /* About */
@@ -204,4 +208,9 @@ footer{
 
 .contact-list-item:hover{
 
+}
+
+.vib-img{
+  width: 60px;
+  height: 20px;
 }
