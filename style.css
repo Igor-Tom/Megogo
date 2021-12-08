@@ -68,14 +68,38 @@ select {
     padding-right: 20px;
     margin: auto;
 }
+
+.accent{
+  color: red;
+}
 /* Header */
 header{
     background-color: #000;
     display: flex;
     justify-content: center;
-    color: teal;
+    
 }
+.neon {
+  color: #008080;
+  text-transform: uppercase;
+    animation: 2s neon alternate-reverse infinite;
+}
+@keyframes neon {
+  from {
+      text-shadow: 0 0 5px #008080,
+      0 0 10px #008080,
+      0 0 15px #008080,
+      0 0 20px #BFE2FF;
+  }
+  to {
+      text-shadow: 0 0 20px #BFE2FF,
+      0 0 35px #BFE2FF,
+      0 0 40px #BFE2FF,
+      0 0 50px #BFE2FF,
+  }
+}    
 /* Header End */
+
 /* About */
 .about{
     padding: 20px;
@@ -88,6 +112,7 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
 }
 /* About End */
+
 /* AboutW */
 .aboutW{
     padding: 20px;
@@ -133,10 +158,13 @@ header{
   margin-top: 5px;
 }
 .megogo-link{
-  color: red;
+  color: teal;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 .megogo-link:hover{
-  color: teal;
+  color: red;
+  
 }
 /* AboutW End*/
 
@@ -151,4 +179,8 @@ footer{
 
 .contact-list-item{
     color: wheat;
+}
+
+.contact-list-item:hover{
+
 }
